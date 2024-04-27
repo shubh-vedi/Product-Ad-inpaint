@@ -15,7 +15,7 @@ Code Example
 python
 Copy code
 import replicate
-
+'''
 input = {
     "prompt": "modern sofa+ in a contemporary living room, filled with stylish decor+;modern, contemporary, sofa, living room, stylish decor",
     "image_num": 4,
@@ -29,6 +29,7 @@ output = replicate.run(
     input=input
 )
 print(output)
+'''
 Output
 The API generates inpainted images based on the provided prompts and input images.
 
